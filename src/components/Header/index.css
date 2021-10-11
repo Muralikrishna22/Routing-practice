@@ -1,0 +1,38 @@
+.header-container {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    color: #12022f;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+.nav-link {
+  list-style-type: none;
+}
